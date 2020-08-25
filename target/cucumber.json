@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Ringgo Existing customer login",
+        "description": "",
+        "id": "ringgo-login;ringgo-existing-customer-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3450644579,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am an exiting Ringgo customer",
+            "match": {
+              "location": "LoginStepDefination.i_am_an_exiting_Ringgo_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1135472077,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "try to login with valid credentials",
+            "match": {
+              "location": "LoginStepDefination.try_to_login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2006168275,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "should be logged in",
+            "match": {
+              "location": "LoginStepDefination.should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5272547,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on Home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90680406,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ringgo Login",
+    "description": "",
+    "id": "ringgo-login",
+    "keyword": "Feature",
+    "uri": "/Users/sampathpritila/eclipse-workspace/Ringgo/src/main/java/Features/login.feature"
+  }
+]

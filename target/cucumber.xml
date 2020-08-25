@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.688238">
+<testcase classname="Ringgo Login" name="Ringgo Existing customer login" time="6.688238">
+<system-out><![CDATA[Given I am an exiting Ringgo customer.......................................passed
+When try to login with valid credentials....................................passed
+Then should be logged in....................................................passed
+Then user is on Home page...................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
