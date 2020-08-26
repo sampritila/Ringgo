@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.688238">
-<testcase classname="Ringgo Login" name="Ringgo Existing customer login" time="6.688238">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="7.744555">
+<testcase classname="Ringgo Login" name="Ringgo Existing customer login" time="7.744555">
 <system-out><![CDATA[Given I am an exiting Ringgo customer.......................................passed
 When try to login with valid credentials....................................passed
 Then should be logged in....................................................passed
 Then user is on Home page...................................................passed
 Then close the browser......................................................passed
 ]]></system-out>
+</testcase>
+<testcase classname="Ringgo Login" name="Book a parking session" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am inside the ringgo Application....................................undefined
+When entered location and vehicle reg.......................................undefined
+Then should be in parking session page......................................undefined
+Then user is on pay page....................................................undefined
+Then user is on finish page.................................................undefined
+Then close the browser......................................................skipped
+]]></failure>
 </testcase>
 </testsuite>

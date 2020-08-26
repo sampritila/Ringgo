@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3450644579,
+              "duration": 3838874991,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1135472077,
+              "duration": 1175070472,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2006168275,
+              "duration": 2632833510,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 5272547,
+              "duration": 4875231,
               "status": "passed"
             },
             "line": 8,
@@ -60,10 +60,76 @@
           },
           {
             "result": {
-              "duration": 90680406,
+              "duration": 92900969,
               "status": "passed"
             },
             "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Book a parking session",
+        "description": "",
+        "id": "ringgo-login;book-a-parking-session",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I am inside the ringgo Application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "entered location and vehicle reg",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "should be in parking session page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user is on pay page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on finish page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
             "name": "close the browser",
             "match": {
               "location": "LoginStepDefination.close_the_browser()"
